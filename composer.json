@@ -1,5 +1,5 @@
 {
-  "name" : "isdarka/zend-base",
+  "name" : "isdarka/zendbase",
   "description" : "Base Zend Framework 2",
   "version" : "1.0",
   "require" : {
@@ -18,5 +18,5 @@
   },
   "license" : "MIT",
   "type" : "library",
-  "homepage" : "https://github.com/isdarka/ZendBase"
+  "homepage" : "https://github.com/isdarka/zendbase"
 }
