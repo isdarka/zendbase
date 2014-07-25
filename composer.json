@@ -1,0 +1,22 @@
+{
+  "name" : "isdarka/>endBase",
+  "description" : "Base Zend Framework 2",
+  "version" : "1.0",
+  "require" : {
+    "php" : ">=5.3.3",
+    "zendframework/zendframework" : "2.*"
+  },
+  "authors" : [ {
+    "name" : "Israel Ruiz",
+    "email" : "isdarka@isdarka.com"
+  } ],
+  "keywords" : [ "zf2", "zend"],
+  "autoload" : {
+    "psr-4" : {
+      "Isdarka\\" : "src/"
+    }
+  },
+  "license" : "MIT",
+  "type" : "library",
+  "homepage" : "https://github.com/isdarka/ZendBase"
+}
