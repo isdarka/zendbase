@@ -1,5 +1,5 @@
 {
-  "name" : "isdarka/zendBase",
+  "name" : "isdarka/zend-base",
   "description" : "Base Zend Framework 2",
   "version" : "1.0",
   "require" : {
