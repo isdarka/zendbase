@@ -12,9 +12,10 @@
   } ],
   "keywords" : [ "zf2", "zend" ],
   "autoload" : {
-    "psr-4" : {
-      "Isdarka\\" : "src/Isdarka"
-    }
+  	"psr-0" : { 
+  		"Isdarka\\" : "src/Isdarka" 
+  	}
+    
   },
   "type" : "library",
   "license" : "MIT",

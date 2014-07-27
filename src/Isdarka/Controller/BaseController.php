@@ -11,6 +11,10 @@ namespace Isdarka\Controller;
 use Isdarka\Menu\MenuRender;
 use Isdarka\Security\AuthStorage;
 use Zend\Mvc\Controller\AbstractActionController;
+use Zend\Session\Validator\HttpUserAgent;
+use Zend\Session\Validator\RemoteAddr;
+use Zend\Mvc\MvcEvent;
+use Zend\Authentication\AuthenticationService;
 /**
  * BaseController
  * @author isdarka 
@@ -191,11 +195,11 @@ class BaseController extends AbstractActionController
 	
 	protected function getHttpUserAgent()
 	{
-		$authStorage = $this->getAuthStorage()->read();
-		if(is_null($authStorage))
-			return;
-		if(array_key_exists("httpUserAgent", $authStorage))
-			return $authStorage["httpUserAgent"];
+// 		$authStorage = $this->getAuthStorage()->read();
+// 		if(is_null($authStorage))
+// 			return;
+// 		if(array_key_exists("httpUserAgent", $authStorage))
+// 			return $authStorage["httpUserAgent"];
 	}
 	
 	protected function getRemoteAddr()
