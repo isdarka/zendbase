@@ -13,7 +13,7 @@
   "keywords" : [ "zf2", "zend" ],
   "autoload" : {
   	"psr-0" : { 
-  		"Isdarka\\" : "src/Isdarka" 
+  		"Isdarka\\" : "src/" 
   	}
     
   },
