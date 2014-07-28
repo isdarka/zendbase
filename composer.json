@@ -4,7 +4,7 @@
   "version" : "1.0",
   "require" : {
     "php" : ">=5.3.3",
-    "zendframework/zendframework" : "2.*"
+    "zendframework/zendframework" : "2.2.6"
   },
   "authors" : [ {
     "name" : "Israel Ruiz",
@@ -12,12 +12,11 @@
   } ],
   "keywords" : [ "zf2", "zend" ],
   "autoload" : {
-  	"psr-0" : { 
-  		"Isdarka\\" : "src/" 
-  	}
-    
+    "psr-0" : {
+      "Isdarka\\" : "src/"
+    }
   },
-  "type" : "library",
   "license" : "MIT",
+  "type" : "library",
   "homepage" : "https://github.com/isdarka/zendbase"
 }
