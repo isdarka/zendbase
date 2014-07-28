@@ -15,6 +15,9 @@ use Zend\Session\Validator\HttpUserAgent;
 use Zend\Session\Validator\RemoteAddr;
 use Zend\Mvc\MvcEvent;
 use Zend\Authentication\AuthenticationService;
+use Zend\Stdlib\RequestInterface as Request;
+use Zend\Stdlib\ResponseInterface as Response;
+use Zend\View\Model\ViewModel;
 /**
  * BaseController
  * @author isdarka 
